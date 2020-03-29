@@ -6,7 +6,7 @@ Also the app uses a lot of reusable components that can be used in other project
 
 ## Installation
 
-Clone the repo, setup react-native CLI via pm & run using
+Clone the repo, setup react-native CLI via npm & run using
 ```bash
 react-native run-android
 ```
