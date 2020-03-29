@@ -1,4 +1,4 @@
-# React-Native Albums App
+# React-Native Firebase Authentication
 
 An app built with Vanilla react-native to authenticate user via firebase.
 This app can be used to login/register user using a single multi-purpose screen.
