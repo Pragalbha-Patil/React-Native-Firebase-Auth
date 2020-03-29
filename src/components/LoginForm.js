@@ -47,7 +47,7 @@ class LoginForm extends Component {
 
   render() {
     return (
-      <Card>
+      <Card style={styles.cardStyle}>
         <CardSection>
           <Input
             placeholder="email@example.com"
@@ -84,7 +84,7 @@ const styles = {
     fontSize: 20,
     alignSelf: 'center',
     color: 'red'
-  }
+  },
 };
 
 export default LoginForm;

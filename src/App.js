@@ -31,7 +31,15 @@ class App extends Component {
           </Card>
         );
       case false:
-        return <LoginForm />;
+        return <LoginForm />
+      default:
+        return (
+          <Card>
+            <CardSection>
+              <Spinner />
+            </CardSection>
+          </Card>
+        );
     }
   }
 
